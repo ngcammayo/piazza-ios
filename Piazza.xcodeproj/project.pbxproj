@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		B47E6C552A381B370054757E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E6C542A381B370054757E /* AppDelegate.swift */; };
 		B47E6C572A381B370054757E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E6C562A381B370054757E /* SceneDelegate.swift */; };
-		B47E6C592A381B370054757E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E6C582A381B370054757E /* ViewController.swift */; };
-		B47E6C5C2A381B370054757E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47E6C5A2A381B370054757E /* Main.storyboard */; };
 		B47E6C5E2A381B3A0054757E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47E6C5D2A381B3A0054757E /* Assets.xcassets */; };
 		B47E6C612A381B3A0054757E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47E6C5F2A381B3A0054757E /* LaunchScreen.storyboard */; };
 		B47E6C6C2A381B3B0054757E /* PiazzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E6C6B2A381B3B0054757E /* PiazzaTests.swift */; };
@@ -40,8 +38,6 @@
 		B47E6C512A381B370054757E /* Piazza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piazza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47E6C542A381B370054757E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B47E6C562A381B370054757E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B47E6C582A381B370054757E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B47E6C5B2A381B370054757E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B47E6C5D2A381B3A0054757E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B47E6C602A381B3A0054757E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B47E6C622A381B3A0054757E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,8 +99,6 @@
 			children = (
 				B47E6C542A381B370054757E /* AppDelegate.swift */,
 				B47E6C562A381B370054757E /* SceneDelegate.swift */,
-				B47E6C582A381B370054757E /* ViewController.swift */,
-				B47E6C5A2A381B370054757E /* Main.storyboard */,
 				B47E6C5D2A381B3A0054757E /* Assets.xcassets */,
 				B47E6C5F2A381B3A0054757E /* LaunchScreen.storyboard */,
 				B47E6C622A381B3A0054757E /* Info.plist */,
@@ -242,7 +236,6 @@
 			files = (
 				B47E6C612A381B3A0054757E /* LaunchScreen.storyboard in Resources */,
 				B47E6C5E2A381B3A0054757E /* Assets.xcassets in Resources */,
-				B47E6C5C2A381B370054757E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B47E6C592A381B370054757E /* ViewController.swift in Sources */,
 				B47E6C552A381B370054757E /* AppDelegate.swift in Sources */,
 				B47E6C572A381B370054757E /* SceneDelegate.swift in Sources */,
 			);
@@ -326,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B47E6C5A2A381B370054757E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B47E6C5B2A381B370054757E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B47E6C5F2A381B3A0054757E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -470,7 +454,7 @@
 				INFOPLIST_FILE = Piazza/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,7 +481,7 @@
 				INFOPLIST_FILE = Piazza/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
